@@ -1,0 +1,74 @@
+Error Code: -8901
+Error Message: "Pump 1 Failed to Start"
+Possible Reason: Electrical fault or thermal overload in Pump 1.
+How to Fix: Check power supply, circuit breakers, and motor thermal protection. Restart pump after inspection.
+
+Error Code: -8902
+Error Message: "Pump 2 Overcurrent Detected"
+Possible Reason: Excessive mechanical load or blockage on Pump 2.
+How to Fix: Turn off the pump immediately. Inspect for foreign objects in impeller or blocked discharge line. Clear the blockage and restart.
+
+Error Code: -8903
+Error Message: "Pump 3 Status Error"
+Possible Reason: Internal motor fault or communication failure with pump controller.
+How to Fix: Verify wiring and control panel connections. If error persists, replace pump controller or service motor unit.
+
+Error Code: -8904
+Error Message: "Flow Sensor Signal Lost"
+Possible Reason: Disconnected sensor cable or failed sensor unit.
+How to Fix: Check the wiring and sensor connections. Replace the sensor if damage or corrosion is visible.
+
+Error Code: -8905
+Error Message: "Pressure Sensor Out of Range"
+Possible Reason: Pressure exceeding sensor limits or sensor calibration drift.
+How to Fix: Verify system pressure manually. If true pressure is normal, recalibrate or replace the pressure sensor.
+
+Error Code: -8906
+Error Message: "Tank Level Critically Low"
+Possible Reason: Fluid in the tank has dropped below safe operation threshold.
+How to Fix: Refill tank immediately. Investigate system for leaks or excessive draw-off rate.
+
+Error Code: -8907
+Error Message: "Tank Overpressure Condition"
+Possible Reason: All pumps active with restricted outflow causing pressure buildup.
+How to Fix: Shut down all pumps. Open outlet valves to relieve pressure. Check for flow path restrictions.
+
+Error Code: -8908
+Error Message: "Pump 1 Communication Timeout"
+Possible Reason: Loss of data from pump controller to monitoring system.
+How to Fix: Restart communication gateway. Inspect cable and controller integrity. Ensure network stability.
+
+Error Code: -8909
+Error Message: "System Flow Rate Below Threshold"
+Possible Reason: One or more pumps underperforming or flow path obstructed.
+How to Fix: Verify pump status. Check for clogging or closed valves. Activate backup pumps if necessary.
+
+Error Code: -8910
+Error Message: "Unexpected Pressure Drop Detected"
+Possible Reason: Leak in piping system or suction-side air ingress.
+How to Fix: Inspect pipes and joints for leaks. Check pump suction valves and gaskets for integrity.
+
+Error Code: -8911
+Error Message: "Excessive Flow Rate Detected"
+Possible Reason: Sensor calibration error or abnormal pump operation.
+How to Fix: Recalibrate flow sensor. If pumps are cycling too frequently, investigate load-side demand.
+
+Error Code: -8912
+Error Message: "Pump 2 Vibration Exceeds Limit"
+Possible Reason: Mechanical imbalance or worn-out bearings.
+How to Fix: Shut off the pump. Conduct mechanical inspection. Replace bearings if necessary.
+
+Error Code: -8913
+Error Message: "Data Logging Failure"
+Possible Reason: Disk write error or disconnected logging interface.
+How to Fix: Ensure storage drive is connected and not full. Restart logging service.
+
+Error Code: -8914
+Error Message: "UI Display Sync Failure"
+Possible Reason: Loss of real-time data stream or buffer overflow.
+How to Fix: Restart user interface application. Ensure communication services are running properly.
+
+Error Code: -8915
+Error Message: "System Emergency Stop Triggered"
+Possible Reason: Manual E-Stop engaged or automatic threshold exceeded.
+How to Fix: Inspect system for unsafe condition. Reset E-Stop circuit and verify system integrity before restarting.

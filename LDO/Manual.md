@@ -19,3 +19,8 @@
 16. Configurable for Paralleling Power Stages
 17. Thermally-Enhanced 3mm × 3mm LQFN Package
 18. AEC-Q100 Qualified for Automotive Applications
+
+# Instrument resources
+
+1. Dev1 - input power supply of the LTC3310
+2. Eload - output load for the LTC3310
